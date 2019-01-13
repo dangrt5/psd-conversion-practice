@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+ul li {
+  font-family: Roboto Condensed, Arial
+}
+
+.header {
+  width: 95%;
+  margin: auto;
+  max-width: 1600px;
+}
+
+.header .logo,
+.header #nav {
+  display: inline-block;
+}
+
+.header .logo {
+  width: 5%;
+  text-transform: uppercase;
+  padding-left: 4%;
+}
+
+.header #nav {
+  width: 95%;
+  float: right;
+  text-align: right;
+}
+
+.header #nav ul {
+  list-style-type: none;
+  margin-top: 2rem;
+  padding-right: 5%;
+  text-transform: uppercase;
+}
+
+.header #nav li {
+  display: inline-block;
+  margin-left: 2%;
+  font-weight: bold;
+}
+
+.header #nav li a {
+  text-decoration: none;
+  color: #4e4e4e;
+}
+
+.header #nav li.active a,
+.header #nav li a:hover {
+  color: #80d1c1;
+}
+
+.banner {
+  width: 95%;
+  max-width: 1600px;
+  margin: auto;
+  position: relative;
+}
+
+.banner #banner-description,
+.banner #banner-subdescription {
+  font-family: Roboto Slab, Arial;
+}
+
+.banner #banner-description {
+  color: white;
+  position: absolute;
+  left: 27%;
+  top: 35%;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.banner #banner-subdescription {
+  color: #8b8c8e;
+  position: absolute;
+  left: 34%;
+  top: 45%;
+  font-weight: bold;
+  font-size: 1.5em;
+}
